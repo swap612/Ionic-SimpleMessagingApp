@@ -12,3 +12,5 @@ For setting up the development evironment for Ionic Framework follow instruction
   $ ionic cordova plugin add cordova-sms-plugin
   $ npm install --save @ionic-native/sms
   </pre>
+  4. Add this SMS plugin to app's NgModule.Edit <b> /src/app/app.module.ts</b> file<br> add import statement: <br>import { SMS } from '@ionic-native/sms'. Also add SMS entry in @NgModule Providers section<br>
+     
